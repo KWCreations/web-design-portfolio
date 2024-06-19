@@ -19,3 +19,12 @@ header {
 	max-height:60px;
 	max-width:60px;
 }
+footer {
+	text-align:center;
+}
+section {
+	width:50%;
+	display:inline-block;
+	margin-right:-4px;
+	vertical-align:top;
+}
