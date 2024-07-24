@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movie Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+<style>
+iframe{width:100%;}
+body{
+	margin:0;
+	min-width:1710px;
+}
+.tab button {
+  display: block;
+  background-color:transparent;
+  color: white;
+  padding: 35px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 40px;
+  font-family: "Anton SC", sans-serif;
+}
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+  background-image:url("cloud-bg.png");
+  padding-bottom:30px;
+  padding-top:30px;
+  text-align:center;
+}
+.tab {
+  float: left;
+  background-color: #f1f1f1;
+  width: 14%;
+  min-width:240px;
+  height: 802px;
+  margin-right:-1px;
+  background-image:url("dragon-scales.jpg");
+  background-size:100%;
+}
+button:hover{
+   text-shadow:0 0 50px green;
+}
+wrapper{
+	width:100%;
+	display:block;
+	height:1350px;
+	background-color:black;
+}
+section
+	{display:inline-block;
+	width:14%;
+	height:100%;
+	margin-right:-1px;
+	}
+.video{
+	width:86%;
+	display:inline-block;
+	text-align:left;
+}
+.httydlogo{
+	filter:drop-shadow(0px 8px 10px);
+}
+footer{
+	text-align:center;
+	padding-left:100px;
+	padding-right:100px;
+	background-color:white;
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-top:px;
+}
+h1{
+	width:100%;
+	text-align:center;
+	padding-top:50px;
+	font-size:30px;
+	padding-left:160px;
+	color:white;
+	text-shadow:0 0 7px gold;
+}
+.bottomh1spacing{
+	padding-bottom:10px;
+}
+div{
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	background-color:black;
+	padding-bottom:50px;
+}
+aside{
+	display:inline-block;
+	vertical-align:middle;
+	width:56%;
+}
+.berksquadimage{
+	display:inline-block;
+	vertical-align:middle;
+	width:30%;
+	padding-top:50px;
+	padding-left:190px;
+	filter:drop-shadow(0px 8px 10px);
+	height:auto;
+}
+</style>
+<body>
+<header>
+<img src="httyd-logo.png" class="httydlogo" alt="HowToTrainYourDragonLogo" width="550px">
+</header>
+<wrapper>
+<main>
+<section class="tab">
+<button onclick="document.location='default.asp'">About</button>
+<button onclick="document.location='default.asp'">Trailer</button>
+<button onclick="document.location='default.asp'">Soundtrack</button>
+<button onclick="document.location='default.asp'">Tickets</button>
+<button onclick="document.location='default.asp'">Cast &amp; Crew</button>
+<button onclick="document.location='default.asp'">Gallery</button>
+</section>
+<iframe width="100%" height="802" src="https://www.youtube.com/embed/oKiYuIsPxYk?si=d0Cs8j33-qJLDlMW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+</main>
+<div>
+<aside class="bottomh1spacing">
+<h1>Join Hiccup and friends in the Isle of Berk as they embark on an incredibly exciting and unpredictable journey!</h1>
+<h1 class="bottomh1spacing">In a world where dragons lurk and fly about, vikings are trained to kill and hunt them in pursuit of their own survival. Hiccup, son of chief Stoic the Vast, works to find his own way of dealing with things after a certain terrifying but thought-provoking encounter. Though lacking strength and bravery, through his curiosity and wits he traverses this world's biggest challenges.</h1>
+</aside>
+<img src="hiccup and friends.png" alt="hiccup-and-friends" class="berksquadimage">
+</div>
+<footer>
+<h4>© Kerrington Wright, 2024. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</h4>
+</footer>
+</wrapper>
+</body>
+</html>
